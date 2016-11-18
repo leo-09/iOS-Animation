@@ -14,9 +14,18 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    UIViewController* mainController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewController"];
+    UINavigationController * rootController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    self.window.rootViewController = rootController;
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

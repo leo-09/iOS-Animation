@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666848191DDEF02F00AF3F47 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848181DDEF02F00AF3F47 /* MainViewController.m */; };
+		666848261DDEF2F300AF3F47 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848221DDEF2F300AF3F47 /* ModalViewController.m */; };
+		666848271DDEF2F300AF3F47 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848251DDEF2F300AF3F47 /* NavViewController.m */; };
+		6668482A1DDEF3A600AF3F47 /* WYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848291DDEF3A600AF3F47 /* WYViewController.m */; };
+		6668482D1DDEF57100AF3F47 /* WYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6668482C1DDEF57100AF3F47 /* WYTransition.m */; };
+		666848301DDEF96D00AF3F47 /* WYDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6668482F1DDEF96D00AF3F47 /* WYDismissTransition.m */; };
 		66C7F4641DDEE9A900C940EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7F4631DDEE9A900C940EC /* main.m */; };
 		66C7F4671DDEE9A900C940EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7F4661DDEE9A900C940EC /* AppDelegate.m */; };
-		66C7F46A1DDEE9A900C940EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7F4691DDEE9A900C940EC /* ViewController.m */; };
 		66C7F46D1DDEE9A900C940EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C7F46B1DDEE9A900C940EC /* Main.storyboard */; };
 		66C7F46F1DDEE9A900C940EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C7F46E1DDEE9A900C940EC /* Assets.xcassets */; };
 		66C7F4721DDEE9A900C940EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C7F4701DDEE9A900C940EC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666848171DDEF02F00AF3F47 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		666848181DDEF02F00AF3F47 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		666848211DDEF2F300AF3F47 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		666848221DDEF2F300AF3F47 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		666848241DDEF2F300AF3F47 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		666848251DDEF2F300AF3F47 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		666848281DDEF3A600AF3F47 /* WYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYViewController.h; sourceTree = "<group>"; };
+		666848291DDEF3A600AF3F47 /* WYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYViewController.m; sourceTree = "<group>"; };
+		6668482B1DDEF57100AF3F47 /* WYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTransition.h; sourceTree = "<group>"; };
+		6668482C1DDEF57100AF3F47 /* WYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTransition.m; sourceTree = "<group>"; };
+		6668482E1DDEF96D00AF3F47 /* WYDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDismissTransition.h; sourceTree = "<group>"; };
+		6668482F1DDEF96D00AF3F47 /* WYDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYDismissTransition.m; sourceTree = "<group>"; };
 		66C7F45F1DDEE9A900C940EC /* VCTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C7F4631DDEE9A900C940EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66C7F4651DDEE9A900C940EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66C7F4661DDEE9A900C940EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66C7F4681DDEE9A900C940EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		66C7F4691DDEE9A900C940EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66C7F46C1DDEE9A900C940EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66C7F46E1DDEE9A900C940EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C7F4711DDEE9A900C940EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +54,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		666848121DDEEDAD00AF3F47 /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				6668482B1DDEF57100AF3F47 /* WYTransition.h */,
+				6668482C1DDEF57100AF3F47 /* WYTransition.m */,
+				6668482E1DDEF96D00AF3F47 /* WYDismissTransition.h */,
+				6668482F1DDEF96D00AF3F47 /* WYDismissTransition.m */,
+			);
+			path = transition;
+			sourceTree = "<group>";
+		};
+		666848131DDEEDAD00AF3F47 /* viewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				666848171DDEF02F00AF3F47 /* MainViewController.h */,
+				666848181DDEF02F00AF3F47 /* MainViewController.m */,
+				666848201DDEF2F300AF3F47 /* modal */,
+				666848231DDEF2F300AF3F47 /* nav */,
+			);
+			path = viewContrller;
+			sourceTree = "<group>";
+		};
+		666848201DDEF2F300AF3F47 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				666848211DDEF2F300AF3F47 /* ModalViewController.h */,
+				666848221DDEF2F300AF3F47 /* ModalViewController.m */,
+				666848281DDEF3A600AF3F47 /* WYViewController.h */,
+				666848291DDEF3A600AF3F47 /* WYViewController.m */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		666848231DDEF2F300AF3F47 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				666848241DDEF2F300AF3F47 /* NavViewController.h */,
+				666848251DDEF2F300AF3F47 /* NavViewController.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
 		66C7F4561DDEE9A900C940EC = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +117,12 @@
 			children = (
 				66C7F4651DDEE9A900C940EC /* AppDelegate.h */,
 				66C7F4661DDEE9A900C940EC /* AppDelegate.m */,
-				66C7F4681DDEE9A900C940EC /* ViewController.h */,
-				66C7F4691DDEE9A900C940EC /* ViewController.m */,
 				66C7F46B1DDEE9A900C940EC /* Main.storyboard */,
+				666848131DDEEDAD00AF3F47 /* viewContrller */,
+				666848121DDEEDAD00AF3F47 /* transition */,
 				66C7F46E1DDEE9A900C940EC /* Assets.xcassets */,
-				66C7F4701DDEE9A900C940EC /* LaunchScreen.storyboard */,
 				66C7F4731DDEE9A900C940EC /* Info.plist */,
+				66C7F4701DDEE9A900C940EC /* LaunchScreen.storyboard */,
 				66C7F4621DDEE9A900C940EC /* Supporting Files */,
 			);
 			path = VCTransition;
@@ -151,9 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66C7F46A1DDEE9A900C940EC /* ViewController.m in Sources */,
 				66C7F4671DDEE9A900C940EC /* AppDelegate.m in Sources */,
+				666848261DDEF2F300AF3F47 /* ModalViewController.m in Sources */,
+				6668482A1DDEF3A600AF3F47 /* WYViewController.m in Sources */,
+				666848191DDEF02F00AF3F47 /* MainViewController.m in Sources */,
 				66C7F4641DDEE9A900C940EC /* main.m in Sources */,
+				6668482D1DDEF57100AF3F47 /* WYTransition.m in Sources */,
+				666848271DDEF2F300AF3F47 /* NavViewController.m in Sources */,
+				666848301DDEF96D00AF3F47 /* WYDismissTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2LTL7JD237;
 				INFOPLIST_FILE = VCTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hihome.transition.VCTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2LTL7JD237;
 				INFOPLIST_FILE = VCTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hihome.transition.VCTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +374,7 @@
 				66C7F4781DDEE9A900C940EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
