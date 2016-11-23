@@ -43,6 +43,7 @@
     
     // 0.5秒后启动吸附力
     dispatch_after(500, dispatch_get_main_queue(), ^{
+        // 初始化吸附力行为
         UISnapBehavior *snapBehavior = [[UISnapBehavior alloc] initWithItem:self.aview snapToPoint:CGPointMake(200, 300)];
         snapBehavior.damping = 50;
         [self.animator addBehavior:snapBehavior];
