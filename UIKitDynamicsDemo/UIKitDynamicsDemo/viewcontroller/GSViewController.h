@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GSViewController.h
 //  UIKitDynamicsDemo
 //
 //  Created by liyy on 16/11/22.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+/**
+    重力+吸附
+ */
+@interface GSViewController : UIViewController
 
 @end
-
