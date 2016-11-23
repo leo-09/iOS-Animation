@@ -18,6 +18,7 @@
 		663A40041DE47EA000A3AA04 /* GAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40031DE47EA000A3AA04 /* GAViewController.m */; };
 		663A40071DE47EB500A3AA04 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40061DE47EB500A3AA04 /* GPViewController.m */; };
 		663A400A1DE47EFB00A3AA04 /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40091DE47EFB00A3AA04 /* GSViewController.m */; };
+		663A40101DE535AE00A3AA04 /* GravityAndSnapBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A400F1DE535AE00A3AA04 /* GravityAndSnapBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		663A40061DE47EB500A3AA04 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
 		663A40081DE47EFB00A3AA04 /* GSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
 		663A40091DE47EFB00A3AA04 /* GSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		663A400E1DE535AE00A3AA04 /* GravityAndSnapBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityAndSnapBehavior.h; sourceTree = "<group>"; };
+		663A400F1DE535AE00A3AA04 /* GravityAndSnapBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityAndSnapBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				663A3FE41DE47BC400A3AA04 /* AppDelegate.h */,
 				663A3FE51DE47BC400A3AA04 /* AppDelegate.m */,
 				663A3FF81DE47E3D00A3AA04 /* viewcontroller */,
+				663A400E1DE535AE00A3AA04 /* GravityAndSnapBehavior.h */,
+				663A400F1DE535AE00A3AA04 /* GravityAndSnapBehavior.m */,
 				663A3FEA1DE47BC400A3AA04 /* Main.storyboard */,
 				663A3FED1DE47BC400A3AA04 /* Assets.xcassets */,
 				663A3FEF1DE47BC400A3AA04 /* LaunchScreen.storyboard */,
@@ -186,6 +191,7 @@
 			files = (
 				663A3FE61DE47BC400A3AA04 /* AppDelegate.m in Sources */,
 				663A3FFB1DE47E3D00A3AA04 /* ViewController.m in Sources */,
+				663A40101DE535AE00A3AA04 /* GravityAndSnapBehavior.m in Sources */,
 				663A40011DE47E7000A3AA04 /* GCViewController.m in Sources */,
 				663A3FFE1DE47E5900A3AA04 /* GViewController.m in Sources */,
 				663A40041DE47EA000A3AA04 /* GAViewController.m in Sources */,
