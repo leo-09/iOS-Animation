@@ -83,6 +83,49 @@
             </objects>
             <point key="canvasLocation" x="908" y="78"/>
         </scene>
+        <!--Presented View Controller-->
+        <scene sceneID="dtm-iJ-CBa">
+            <objects>
+                <viewController storyboardIdentifier="PresentedViewController" id="bVa-4u-kry" customClass="PresentedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qUO-iF-q2R"/>
+                        <viewControllerLayoutGuide type="bottom" id="wYg-Be-b1L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mDn-tM-E3c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Laa-KR-ARF">
+                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="回去">
+                                    <color key="titleColor" red="1" green="0.10530340661824" blue="0.14936094834258418" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss:" destination="bVa-4u-kry" eventType="touchUpInside" id="n7f-0w-Pnc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modal的转场动画的实现" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-iA-cZx">
+                                <rect key="frame" x="94.5" y="40" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15686274510000001" green="0.52156862749999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nUf-iA-cZx" firstAttribute="centerX" secondItem="mDn-tM-E3c" secondAttribute="centerX" id="FLl-n4-mcU"/>
+                            <constraint firstItem="Laa-KR-ARF" firstAttribute="leading" secondItem="mDn-tM-E3c" secondAttribute="leading" constant="20" id="L8S-6N-Kfb"/>
+                            <constraint firstItem="nUf-iA-cZx" firstAttribute="top" secondItem="qUO-iF-q2R" secondAttribute="bottom" constant="20" id="Odm-eK-NyZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Laa-KR-ARF" secondAttribute="trailing" constant="20" id="VdN-fu-5N0"/>
+                            <constraint firstItem="Laa-KR-ARF" firstAttribute="top" secondItem="qUO-iF-q2R" secondAttribute="bottom" constant="100" id="nLn-MC-k8i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I6f-nC-7qP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233" y="78"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="8Xw-EN-VfZ">
             <objects>
@@ -102,17 +145,27 @@
                                     <action selector="backBtn:" destination="v6G-EQ-EaM" eventType="touchUpInside" id="vJJ-Qy-lT3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQ4-ZC-fyr">
+                                <rect key="frame" x="20" y="597" width="335" height="30"/>
+                                <state key="normal" title="下一页，走你"/>
+                                <connections>
+                                    <action selector="nextVC:" destination="v6G-EQ-EaM" eventType="touchUpInside" id="8OE-gU-bGh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.71683424711227417" green="0.4519458831042365" blue="0.3709977118835357" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="YVg-AP-nq6" firstAttribute="centerX" secondItem="Adb-Eu-i62" secondAttribute="centerX" id="8vr-bB-vi0"/>
+                            <constraint firstItem="cQ4-ZC-fyr" firstAttribute="leading" secondItem="Adb-Eu-i62" secondAttribute="leading" constant="20" id="ESc-l2-Zc4"/>
+                            <constraint firstAttribute="trailing" secondItem="cQ4-ZC-fyr" secondAttribute="trailing" constant="20" id="Uwf-Uk-ggp"/>
                             <constraint firstItem="YVg-AP-nq6" firstAttribute="centerY" secondItem="Adb-Eu-i62" secondAttribute="centerY" id="dPf-KK-7kv"/>
+                            <constraint firstItem="Xhq-u6-4uE" firstAttribute="top" secondItem="cQ4-ZC-fyr" secondAttribute="bottom" constant="40" id="dkX-wI-IsM"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="poc-UA-nkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1583" y="78"/>
+            <point key="canvasLocation" x="1591" y="78"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Afd-3p-O8q">

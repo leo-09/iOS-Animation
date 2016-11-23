@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663A40361DE567C600A3AA04 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40351DE567C600A3AA04 /* PresentedViewController.m */; };
+		663A40391DE5697300A3AA04 /* RotationPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40381DE5697300A3AA04 /* RotationPresentAnimation.m */; };
+		663A403C1DE56E1E00A3AA04 /* PanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A403B1DE56E1E00A3AA04 /* PanInteractiveTransition.m */; };
+		663A403F1DE56FFB00A3AA04 /* RotationDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A403E1DE56FFB00A3AA04 /* RotationDismissAnimation.m */; };
+		663A40471DE57D5200A3AA04 /* BouncePresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40421DE57D5200A3AA04 /* BouncePresentAnimation.m */; };
+		663A40481DE57D5200A3AA04 /* NormalDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40441DE57D5200A3AA04 /* NormalDismissAnimation.m */; };
+		663A40491DE57D5200A3AA04 /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A40461DE57D5200A3AA04 /* SwipeUpInteractiveTransition.m */; };
+		663A404C1DE57D7400A3AA04 /* ModalViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A404B1DE57D7400A3AA04 /* ModalViewController2.m */; };
 		666848191DDEF02F00AF3F47 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848181DDEF02F00AF3F47 /* MainViewController.m */; };
 		666848261DDEF2F300AF3F47 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848221DDEF2F300AF3F47 /* ModalViewController.m */; };
 		666848271DDEF2F300AF3F47 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666848251DDEF2F300AF3F47 /* NavViewController.m */; };
@@ -21,6 +29,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		663A40341DE567C600A3AA04 /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
+		663A40351DE567C600A3AA04 /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		663A40371DE5697300A3AA04 /* RotationPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationPresentAnimation.h; sourceTree = "<group>"; };
+		663A40381DE5697300A3AA04 /* RotationPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationPresentAnimation.m; sourceTree = "<group>"; };
+		663A403A1DE56E1E00A3AA04 /* PanInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanInteractiveTransition.h; sourceTree = "<group>"; };
+		663A403B1DE56E1E00A3AA04 /* PanInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanInteractiveTransition.m; sourceTree = "<group>"; };
+		663A403D1DE56FFB00A3AA04 /* RotationDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationDismissAnimation.h; sourceTree = "<group>"; };
+		663A403E1DE56FFB00A3AA04 /* RotationDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationDismissAnimation.m; sourceTree = "<group>"; };
+		663A40411DE57D5200A3AA04 /* BouncePresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePresentAnimation.h; sourceTree = "<group>"; };
+		663A40421DE57D5200A3AA04 /* BouncePresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePresentAnimation.m; sourceTree = "<group>"; };
+		663A40431DE57D5200A3AA04 /* NormalDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDismissAnimation.h; sourceTree = "<group>"; };
+		663A40441DE57D5200A3AA04 /* NormalDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDismissAnimation.m; sourceTree = "<group>"; };
+		663A40451DE57D5200A3AA04 /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		663A40461DE57D5200A3AA04 /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		663A404A1DE57D7400A3AA04 /* ModalViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController2.h; sourceTree = "<group>"; };
+		663A404B1DE57D7400A3AA04 /* ModalViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController2.m; sourceTree = "<group>"; };
 		666848171DDEF02F00AF3F47 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		666848181DDEF02F00AF3F47 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		666848211DDEF2F300AF3F47 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
@@ -54,13 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663A40401DE57D5200A3AA04 /* wangyuan_demo */ = {
+			isa = PBXGroup;
+			children = (
+				663A40411DE57D5200A3AA04 /* BouncePresentAnimation.h */,
+				663A40421DE57D5200A3AA04 /* BouncePresentAnimation.m */,
+				663A40431DE57D5200A3AA04 /* NormalDismissAnimation.h */,
+				663A40441DE57D5200A3AA04 /* NormalDismissAnimation.m */,
+				663A40451DE57D5200A3AA04 /* SwipeUpInteractiveTransition.h */,
+				663A40461DE57D5200A3AA04 /* SwipeUpInteractiveTransition.m */,
+			);
+			path = wangyuan_demo;
+			sourceTree = "<group>";
+		};
 		666848121DDEEDAD00AF3F47 /* transition */ = {
 			isa = PBXGroup;
 			children = (
+				663A40401DE57D5200A3AA04 /* wangyuan_demo */,
 				6668482B1DDEF57100AF3F47 /* WYTransition.h */,
 				6668482C1DDEF57100AF3F47 /* WYTransition.m */,
 				6668482E1DDEF96D00AF3F47 /* WYDismissTransition.h */,
 				6668482F1DDEF96D00AF3F47 /* WYDismissTransition.m */,
+				663A40371DE5697300A3AA04 /* RotationPresentAnimation.h */,
+				663A40381DE5697300A3AA04 /* RotationPresentAnimation.m */,
+				663A403D1DE56FFB00A3AA04 /* RotationDismissAnimation.h */,
+				663A403E1DE56FFB00A3AA04 /* RotationDismissAnimation.m */,
+				663A403A1DE56E1E00A3AA04 /* PanInteractiveTransition.h */,
+				663A403B1DE56E1E00A3AA04 /* PanInteractiveTransition.m */,
 			);
 			path = transition;
 			sourceTree = "<group>";
@@ -81,8 +125,12 @@
 			children = (
 				666848211DDEF2F300AF3F47 /* ModalViewController.h */,
 				666848221DDEF2F300AF3F47 /* ModalViewController.m */,
+				663A404A1DE57D7400A3AA04 /* ModalViewController2.h */,
+				663A404B1DE57D7400A3AA04 /* ModalViewController2.m */,
 				666848281DDEF3A600AF3F47 /* WYViewController.h */,
 				666848291DDEF3A600AF3F47 /* WYViewController.m */,
+				663A40341DE567C600A3AA04 /* PresentedViewController.h */,
+				663A40351DE567C600A3AA04 /* PresentedViewController.m */,
 			);
 			path = modal;
 			sourceTree = "<group>";
@@ -208,14 +256,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663A404C1DE57D7400A3AA04 /* ModalViewController2.m in Sources */,
 				66C7F4671DDEE9A900C940EC /* AppDelegate.m in Sources */,
+				663A403F1DE56FFB00A3AA04 /* RotationDismissAnimation.m in Sources */,
+				663A40481DE57D5200A3AA04 /* NormalDismissAnimation.m in Sources */,
 				666848261DDEF2F300AF3F47 /* ModalViewController.m in Sources */,
+				663A40391DE5697300A3AA04 /* RotationPresentAnimation.m in Sources */,
 				6668482A1DDEF3A600AF3F47 /* WYViewController.m in Sources */,
+				663A40361DE567C600A3AA04 /* PresentedViewController.m in Sources */,
 				666848191DDEF02F00AF3F47 /* MainViewController.m in Sources */,
+				663A40491DE57D5200A3AA04 /* SwipeUpInteractiveTransition.m in Sources */,
 				66C7F4641DDEE9A900C940EC /* main.m in Sources */,
+				663A40471DE57D5200A3AA04 /* BouncePresentAnimation.m in Sources */,
 				6668482D1DDEF57100AF3F47 /* WYTransition.m in Sources */,
 				666848271DDEF2F300AF3F47 /* NavViewController.m in Sources */,
 				666848301DDEF96D00AF3F47 /* WYDismissTransition.m in Sources */,
+				663A403C1DE56E1E00A3AA04 /* PanInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
